@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment Gateway Integration</title>
+</head>
+<body>
+    <div class="nevbar" id="nevbar">
+        <div class="logo">
+            <a href="index.html" id="logo"><h1><span>The Sparks </span>Fundraiser</h1></a>
+        </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a id="home" href="index.html">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a id="about" href="https://www.linkedin.com/in/prateeksha-bhandary-439262224/" target="blank">About me</a></li>
+            </ul>
+        </div>
+        <div class="menuicon">
+            <i id="menuicon" onclick="togglemenu()" class="fas fa-chevron-circle-down"> <span>MENU</span></i>
+        </div>
+    </div>
+
+    <div class="cover">
+
+        <div class="information">
+            <h2>A Girl Should be Two Things:</h2>
+            <h2>Who and What she Wants</h2>
+            <h1> <span class="heading">DONATE FOR EDUCATION OF GIRL CHILD</span> </h1>
+            <a href="https://rzp.io/l/wd57bOC"><button type="button" class="button"><span class="donate">DONATE</span></button></a>
+        </div>
+
+    </div>
+
+  <!-- SERVICES -->
+  <div class="skills">
+      <h1>SERVICES.</h1>
+      <div class="info">
+        <img class="logo1" src="https://cdn-icons-png.flaticon.com/512/2702/2702162.png" alt="Education">
+        <h2>What we do</h2>
+        <p class="para-1">We help to empower underprivileged girl children with quality education.</p>
+      </div>
+      <div class="info">
+        <img class="logo2" src="https://cdn-icons-png.flaticon.com/512/2436/2436805.png" alt="Education">
+        <h2>How we do it</h2>
+      <p class="para-2">We helps these girls to continue their education through digital initiatives.</p>
+      </div>
+      <div class="info">
+        <img class="logo3" src="https://cdn-icons-png.flaticon.com/512/2832/2832446.png" alt="payment">
+        <h2>Make a Difference</h2>
+      <p class-"para-3">₹ 1,000 can help a girl build a life and add wings to her dreams</p>
+      </div>
+    </div>
+
+
+    <!-- ==========<div class="topspace"></div>============ -->
+    <footer>
+        <p>All right reserved By <a href="https://www.linkedin.com/in/prateeksha-bhandary-439262224/" target="black"><strong> @Prateeksha Bhandary</strong></p>
+    </footer>
+    <!--=================== scripts=======================  -->
+    <script>
+        // drop down menu script
+        var menu = document.getElementById("menu");
+        menu.style.maxHeight = "0px";
+        function togglemenu() {
+            if (menu.style.maxHeight == "0px") {
+                menu.style.maxHeight = "390px";
+            }
+            else {
+                menu.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
